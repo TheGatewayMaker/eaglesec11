@@ -106,7 +106,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="name"
-                    className="block font-semibold text-foreground mb-2"
+                    className="block font-black text-slate-900 mb-3"
                   >
                     Full Name *
                   </label>
@@ -117,7 +117,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                    className="w-full px-5 py-3 border-2 border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                     placeholder="Your name"
                   />
                 </div>
@@ -125,7 +125,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="block font-semibold text-foreground mb-2"
+                    className="block font-black text-slate-900 mb-3"
                   >
                     Email Address *
                   </label>
@@ -136,7 +136,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                    className="w-full px-5 py-3 border-2 border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -146,7 +146,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="phone"
-                    className="block font-semibold text-foreground mb-2"
+                    className="block font-black text-slate-900 mb-3"
                   >
                     Phone Number
                   </label>
@@ -156,7 +156,7 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                    className="w-full px-5 py-3 border-2 border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                     placeholder="+92 XXX XXXXXXX"
                   />
                 </div>
@@ -164,7 +164,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="subject"
-                    className="block font-semibold text-foreground mb-2"
+                    className="block font-black text-slate-900 mb-3"
                   >
                     Subject *
                   </label>
@@ -174,7 +174,7 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                    className="w-full px-5 py-3 border-2 border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                   >
                     <option value="">Select a subject</option>
                     <option value="security-guards">
@@ -192,7 +192,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block font-semibold text-foreground mb-2"
+                  className="block font-black text-slate-900 mb-3"
                 >
                   Message *
                 </label>
@@ -203,14 +203,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                  className="w-full px-5 py-3 border-2 border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                   placeholder="Tell us about your security needs..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-primary text-primary-foreground py-4 font-bold text-lg rounded-lg hover:opacity-90 transition-opacity"
+                className="w-full bg-gradient-to-r from-slate-900 to-slate-800 text-white py-4 font-black text-lg rounded-xl hover:shadow-2xl transition-all duration-300"
               >
                 Send Message
               </button>
