@@ -354,25 +354,25 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-28 md:py-40 bg-white">
+      <section className="py-32 md:py-48 bg-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-6xl md:text-7xl font-black text-primary mb-8 leading-none">
-            Ready to Protect What Matters?
+          <h2 className="text-5xl md:text-7xl font-black text-primary mb-10 leading-tight">
+            Ready to Protect <br className="hidden md:block" />What Matters?
           </h2>
-          <p className="text-2xl md:text-3xl font-bold text-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl font-bold text-foreground mb-16 max-w-3xl mx-auto leading-relaxed">
             Contact our security experts today for a personalized consultation
             and secure your peace of mind
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
               to="/contact"
-              className="bg-accent text-accent-foreground px-12 py-6 font-black text-lg rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+              className="bg-accent text-accent-foreground px-14 py-7 font-black text-lg rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
             >
               Start Your Consultation
             </Link>
             <Link
               to="/services"
-              className="border-3 border-primary text-primary px-12 py-6 font-black text-lg rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 inline-block"
+              className="border-3 border-primary text-primary px-14 py-7 font-black text-lg rounded-xl hover:bg-primary hover:text-primary-foreground transition-all duration-300 inline-block"
             >
               View Services
             </Link>
