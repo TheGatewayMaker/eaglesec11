@@ -89,42 +89,10 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            {/* Static Guards Card */}
+            {/* Bodyguards Card - First */}
             <div
               className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "100ms" }}
-            >
-              <div className="relative overflow-hidden h-64 md:h-80">
-                <img
-                  src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Professional security guards with tactical gear"
-                  className="w-full h-full object-cover transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <Link
-                  to="/services"
-                  className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
-                    Learn More
-                  </span>
-                </Link>
-              </div>
-              <div className="relative z-10 p-8 md:p-10">
-                <Shield className="w-12 h-12 mb-4 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
-                  Static Security Guards
-                </h3>
-                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Our vetted security professionals provide round-the-clock on-site protection with military discipline and precision. Each guard undergoes comprehensive background screening and tactical training to ensure the safety and security of your facilities, personnel, and valuable assets.
-                </p>
-              </div>
-            </div>
-
-            {/* Bodyguards Card */}
-            <div
-              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
-              style={{ animationDelay: "200ms" }}
             >
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
@@ -149,6 +117,38 @@ export default function Home() {
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
                   Our SSG-trained specialists deliver executive-level protection with tactical expertise and discretion. Every bodyguard undergoes rigorous military training and psychological evaluation to provide the highest standard of personal security for VIP clients and high-profile individuals.
+                </p>
+              </div>
+            </div>
+
+            {/* Static Guards Card - Second */}
+            <div
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
+              style={{ animationDelay: "200ms" }}
+            >
+              <div className="relative overflow-hidden h-64 md:h-80">
+                <img
+                  src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Professional security guards with tactical gear"
+                  className="w-full h-full object-cover transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <Link
+                  to="/services"
+                  className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                >
+                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                    Learn More
+                  </span>
+                </Link>
+              </div>
+              <div className="relative z-10 p-8 md:p-10">
+                <Shield className="w-12 h-12 mb-4 text-accent" />
+                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
+                  Static Security Guards
+                </h3>
+                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
+                  Our vetted security professionals provide round-the-clock on-site protection with military discipline and precision. Each guard undergoes comprehensive background screening and tactical training to ensure the safety and security of your facilities, personnel, and valuable assets.
                 </p>
               </div>
             </div>
