@@ -88,14 +88,14 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-h2 font-bold text-primary mb-8">
+            <h2 className="text-4xl font-black text-slate-900 mb-10">
               Send us a Message
             </h2>
 
             {submitted && (
-              <div className="bg-green-50 border border-green-200 text-green-800 p-4 rounded-lg mb-8">
-                <p className="font-semibold mb-1">Message Sent Successfully!</p>
-                <p className="text-sm">
+              <div className="bg-green-50 border-2 border-green-300 text-green-800 p-6 rounded-xl mb-8">
+                <p className="font-black mb-2 text-lg">Message Sent Successfully!</p>
+                <p className="font-bold">
                   Thank you for reaching out. We'll get back to you shortly.
                 </p>
               </div>
