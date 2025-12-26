@@ -166,8 +166,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Value Proposition Section - With Background */}
+      <section className="bg-gradient-to-r from-slate-800 to-slate-900 text-white relative overflow-hidden py-32 md:py-48">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{backgroundImage: "url('https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=1200')", backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-800/95 to-slate-900/95"></div>
+
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="max-w-4xl">
+            <p className="text-3xl md:text-5xl font-black leading-tight mb-10">
+              We believe that in a world where security has become critical, a personalized approach is key to ensuring you get the protection you deserve.
+            </p>
+            <p className="text-lg md:text-2xl font-bold opacity-90 leading-relaxed">
+              From static guards and elite bodyguards to mobile escorts and advanced security equipment, we provide comprehensive, tailored solutions for every security need.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Statistics Section */}
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-20 md:py-28 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-accent text-accent-foreground p-12 rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
