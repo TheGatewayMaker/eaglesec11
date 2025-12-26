@@ -220,58 +220,58 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="py-24 md:py-40 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-h2 text-primary text-center mb-16 font-bold">
+          <h2 className="text-h2 text-primary text-center mb-20 font-black">
             Why Choose Eagle Security Guards
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-h3 font-bold text-primary mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+            <div className="p-8">
+              <h3 className="text-h3 font-black text-primary mb-6">
                 Military Excellence
               </h3>
-              <p className="text-foreground leading-relaxed mb-6">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Our personnel are drawn from armed forces of Pakistan, ensuring
                 top-tier training and discipline in security operations.
               </p>
             </div>
 
-            <div>
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-8">
+              <h3 className="text-h3 font-black text-primary mb-6">
                 Thorough Vetting Process
               </h3>
-              <p className="text-foreground leading-relaxed mb-6">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Comprehensive personal data screening and database verification
                 ensures no compromised individuals join our team.
               </p>
             </div>
 
-            <div>
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-8">
+              <h3 className="text-h3 font-black text-primary mb-6">
                 Elite Specialized Units
               </h3>
-              <p className="text-foreground leading-relaxed mb-6">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Bodyguards from Special Service Group (SSG) represent the cream
                 of our handpicked men trained for critical missions.
               </p>
             </div>
 
-            <div>
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-8">
+              <h3 className="text-h3 font-black text-primary mb-6">
                 Comprehensive Solutions
               </h3>
-              <p className="text-foreground leading-relaxed mb-6">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 From personnel protection to equipment solutions, we provide
                 complete security coverage for every scenario.
               </p>
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center">
             <Link
               to="/why-choose-us"
-              className="bg-primary text-primary-foreground px-8 py-4 font-bold text-lg rounded-lg hover:opacity-90 transition-opacity inline-block"
+              className="bg-primary text-primary-foreground px-10 py-5 font-black text-lg rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
             >
               Learn More
             </Link>
