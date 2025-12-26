@@ -64,17 +64,17 @@ export default function Home() {
       </section>
 
       {/* Services Overview - Color Blocked */}
-      <section className="py-28 md:py-40 bg-slate-50">
+      <section className="py-28 md:py-40 bg-gradient-to-b from-slate-900 to-slate-800">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
           <div className="mb-16 md:mb-20">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">
                 Our Security Services
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-sm md:text-xl font-bold text-gray-300 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Comprehensive solutions designed to protect what matters most to
               you
             </p>
@@ -82,11 +82,11 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Static Guards - Large Featured Card */}
-            <div className="md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-900 to-slate-800 text-white p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
+            <div className="md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-800 to-slate-700 text-white p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
-                  src="https://images.pexels.com/photos/30487150/pexels-photo-30487150.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Professional security guards"
+                  src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Professional security guards with tactical gear"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             {/* Bodyguards Card */}
-            <div className="bg-sky-500 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-700 to-blue-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Users className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -121,7 +121,7 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-base md:text-lg hover:text-sky-100 transition-colors duration-300"
+                  className="inline-block text-white font-black text-base md:text-lg hover:text-blue-200 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
 
             {/* Mobile Escorts Card */}
-            <div className="bg-amber-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-orange-700 to-orange-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Truck className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -141,7 +141,7 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-base md:text-lg hover:text-amber-100 transition-colors duration-300"
+                  className="inline-block text-white font-black text-base md:text-lg hover:text-orange-200 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
 
             {/* Security Equipment Card */}
-            <div className="bg-slate-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-700 to-slate-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Lock className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-accent" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
