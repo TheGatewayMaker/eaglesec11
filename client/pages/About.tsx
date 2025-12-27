@@ -115,40 +115,40 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto">
             {/* Vision */}
-            <div className="bg-card p-10 md:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom">
-              <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-accent/20 mb-8">
-                <Lightbulb className="w-8 h-8 text-accent" />
+            <div className="bg-card p-6 sm:p-8 md:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom">
+              <div className="flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 rounded-xl bg-accent/20 mb-6 sm:mb-8">
+                <Lightbulb className="w-6 sm:w-8 h-6 sm:h-8 text-accent" />
               </div>
-              <h3 className="text-2xl font-black text-foreground mb-4">Vision</h3>
-              <p className="text-muted-foreground leading-relaxed font-bold text-base">
+              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">Vision</h3>
+              <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
                 To be the gold standard in professional security, recognized globally for vigilance, excellence, and the unwavering dedication of our personnel.
               </p>
             </div>
 
             {/* Mission */}
             <div
-              className="bg-card p-10 md:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom"
+              className="bg-card p-6 sm:p-8 md:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom"
               style={{ animationDelay: "100ms" }}
             >
-              <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-accent/20 mb-8">
-                <Target className="w-8 h-8 text-accent" />
+              <div className="flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 rounded-xl bg-accent/20 mb-6 sm:mb-8">
+                <Target className="w-6 sm:w-8 h-6 sm:h-8 text-accent" />
               </div>
-              <h3 className="text-2xl font-black text-foreground mb-4">Mission</h3>
-              <p className="text-muted-foreground leading-relaxed font-bold text-base">
+              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">Mission</h3>
+              <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
                 To safeguard lives and assets through meticulously trained, disciplined, and vetted personnel, led by experienced ex-military commanders.
               </p>
             </div>
 
             {/* Commitment */}
             <div
-              className="bg-card p-10 md:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom"
+              className="bg-card p-6 sm:p-8 md:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom"
               style={{ animationDelay: "200ms" }}
             >
-              <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-accent/20 mb-8">
-                <Compass className="w-8 h-8 text-accent" />
+              <div className="flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 rounded-xl bg-accent/20 mb-6 sm:mb-8">
+                <Compass className="w-6 sm:w-8 h-6 sm:h-8 text-accent" />
               </div>
-              <h3 className="text-2xl font-black text-foreground mb-4">Commitment</h3>
-              <p className="text-muted-foreground leading-relaxed font-bold text-base">
+              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">Commitment</h3>
+              <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
                 Delivering uncompromising reliability, efficiency, and integrity across all sectors, with zero tolerance for mediocrity.
               </p>
             </div>
