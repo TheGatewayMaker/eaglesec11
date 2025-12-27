@@ -474,7 +474,7 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-12 sm:py-16 md:py-32 bg-background transition-colors duration-300 border-y border-border">
+      <section className="py-12 sm:py-16 md:py-32 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-border">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="mb-8 sm:mb-12 md:mb-16 text-center">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 sm:mb-6">
