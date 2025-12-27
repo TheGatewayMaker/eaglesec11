@@ -21,7 +21,7 @@ export default function About() {
             <img
               src="https://i.ibb.co/8gTBwZC9/eaglesecurityoriginallogomonochrome.png"
               alt="Eagle Security Guards Logo"
-              className="w-24 md:w-32 h-24 md:h-32 object-contain mx-auto opacity-95 filter drop-shadow-xl"
+              className="w-32 md:w-40 h-32 md:h-40 object-contain mx-auto opacity-95 filter drop-shadow-xl"
             />
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-black mb-6 text-white drop-shadow-2xl leading-tight">
