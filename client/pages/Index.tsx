@@ -545,7 +545,7 @@ export default function Home() {
           <div className="mb-16 md:mb-24">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-foreground leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black leading-tight">
                 Our Head Office Location
               </h2>
             </div>
