@@ -174,19 +174,22 @@
 
   h1 {
     @apply text-h1 font-black tracking-tight text-foreground;
-    letter-spacing: -0.01em;
-    word-spacing: 0.05em;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    line-height: 1;
   }
 
   h2 {
     @apply text-h2 font-black tracking-tight text-foreground;
     letter-spacing: -0.01em;
-    word-spacing: 0.05em;
+    font-weight: 900;
+    line-height: 1.1;
   }
 
   h3 {
     @apply text-h3 font-black tracking-tight text-foreground;
     letter-spacing: -0.01em;
+    font-weight: 900;
   }
 
   h4 {
