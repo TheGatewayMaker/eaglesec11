@@ -34,24 +34,24 @@ export default function About() {
       </section>
 
       {/* Key Stats Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-r from-accent to-accent/80 transition-colors duration-300">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-white">
+      <section className="py-10 sm:py-16 md:py-24 bg-gradient-to-r from-accent to-accent/80 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-white">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-black mb-3">30+</div>
-              <p className="text-lg font-bold opacity-90">Years of Excellence</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">30+</div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Years of Excellence</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-black mb-3">4000+</div>
-              <p className="text-lg font-bold opacity-90">Dedicated Personnel</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">4000+</div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Dedicated Personnel</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-black mb-3">50+</div>
-              <p className="text-lg font-bold opacity-90">Offices Nationwide</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">50+</div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Offices Nationwide</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-black mb-3">100%</div>
-              <p className="text-lg font-bold opacity-90">Client Satisfaction</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">100%</div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Client Satisfaction</p>
             </div>
           </div>
         </div>
