@@ -97,32 +97,32 @@ export default function Services() {
               className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in"
               style={{ animationDelay: "100ms" }}
             >
-              <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 group relative">
+              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite security professional in uniform"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 gap-6">
+                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 gap-4 sm:gap-6">
                   <img
                     src="https://i.ibb.co/8gTBwZC9/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
+                    className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
               </div>
               <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <Users className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
-                  <h2 className="text-3xl md:text-4xl font-black text-foreground">
+                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+                  <Users className="w-9 sm:w-10 md:w-12 h-9 sm:h-10 md:h-12 text-accent flex-shrink-0" />
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground">
                     Bodyguards
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
+                <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base md:text-xl font-black">
                   Our bodyguards are mainly drawn from Special Service Group
                   (SSG) of Pakistan Army, an elite force trained to use all
                   available means to survive the worst security hazards.
@@ -164,13 +164,13 @@ export default function Services() {
               style={{ animationDelay: "200ms" }}
             >
               <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <Truck className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
-                  <h2 className="text-3xl md:text-4xl font-black text-foreground">
+                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+                  <Truck className="w-9 sm:w-10 md:w-12 h-9 sm:h-10 md:h-12 text-accent flex-shrink-0" />
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground">
                     Mobile Escort Services
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
+                <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base md:text-xl font-black">
                   Mobile escort services are provided by ESG to protect
                   personnel during movement. Our escort teams are fully trained
                   in defensive measures to meet any eventuality.
@@ -202,20 +202,20 @@ export default function Services() {
                   </li>
                 </ul>
               </div>
-              <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 group relative">
+              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Mobile security escort team"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 gap-6">
+                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 gap-4 sm:gap-6">
                   <img
                     src="https://i.ibb.co/8gTBwZC9/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
+                    className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
@@ -229,32 +229,32 @@ export default function Services() {
             style={{ animationDelay: "300ms" }}
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-              <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 group relative">
+              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security equipment and surveillance"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 gap-6">
+                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 gap-4 sm:gap-6">
                   <img
                     src="https://i.ibb.co/8gTBwZC9/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
+                    className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <div className="flex items-center gap-3 mb-6">
-                  <Lock className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
-                  <h2 className="text-3xl md:text-4xl font-black text-foreground">
+                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+                  <Lock className="w-9 sm:w-10 md:w-12 h-9 sm:h-10 md:h-12 text-accent flex-shrink-0" />
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground">
                     Security Equipment
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
+                <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base md:text-xl font-black">
                   ESG specialises in providing all security equipment needed to
                   safeguard your premises with cutting-edge technology and
                   proven solutions.
